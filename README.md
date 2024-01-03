@@ -20,7 +20,7 @@ This project involves creating an engaging **Pokedex** application, where users 
 
 **Dynamic Rendering and RWD**: Develop skills in rendering data into cards with adaptive layouts for various screen sizes, including skeleton loading and error handling.
 
-**Interactive Search Panel**: Implement a real-time search functionality for efficient Pokémon discovery.
+**Interactive Search Panel**: Implement a search functionality for efficient Pokémon discovery.
 
 **Sorting and Filtering**: Learn to create dynamic sorting options and multi-criteria filtering for an enhanced user experience.
 
@@ -30,9 +30,9 @@ This project involves creating an engaging **Pokedex** application, where users 
 
 - Delve into [PokéAPI](https://pokeapi.co/), focusing on pagination (offset, limit), evolution endpoints, and individual Pokémon data (e.g., pokemon/ditto). Plan loading strategies for optimal UX/UI, considering when and how much data to load.
 - Display the 'Pokedex' logo and Pokémon cards, adapting the color based on Pokémon type. Ensure cards include images, names, and numbers. Implement responsive design for different screen sizes, starting with four cards on smaller screens. Include skeleton loading for initial and ongoing data retrieval, plus error handling.
-- Develop a smart search panel with an icon, placeholder ("Pokemon name, number or type"), and search button. Update the list in real-time and handle empty search results.
+- Develop a smart search panel with an icon, placeholder ("Pokemon name, number or type"), and search button. Update the list after clicking on the button and handle empty search results.
 - Add a dropdown for sorting by number and alphabetically, in both ascending and descending order.
-- Introduce a multi-checkbox filter for Pokémon types, height, and weight within a drawer. Implement real-time list updates and display active filter counts.
+- Introduce a multi-checkbox filter for Pokémon types, height, and weight within a drawer. Implement list updates and display active filter counts as well as allow to clearing of the filters.
 - Create a detailed view for each Pokémon, accessible by clicking a card. This should include tabs for 'About', 'Base stats', and 'Evolution' (the latter requiring an additional API call). Incorporate loading indicators and error handling, and display background color, number, image, name, type, and other details as per the design. Include a back button to return to the list.
 
 ## Project assets
